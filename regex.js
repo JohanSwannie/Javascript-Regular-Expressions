@@ -63,3 +63,12 @@ let result5 = string5.match(regex5);
 message = `The result for testing repeats in a string is : `;
 answer = `${result5}`;
 generateTag(message, answer);
+
+// EXAMPLE 6 - TESTING PATTERNS IN A STRING USING THE WILDCARD PERIOD
+
+let string6 = "The lazy dog sleeps all day";
+let regex6 = /......zy/;
+let result6 = string6.match(regex6);
+message = `The result for testing patterns in a string using wildcards is : `;
+answer = `${result6}`;
+generateTag(message, answer);
