@@ -23,7 +23,7 @@ const generateTag = (msg, ans) => {
 let string1 = "Good Day, All People in the World!";
 let regex1 = /People in the World/;
 let result1 = regex1.test(string1);
-message = `The result for single pattern present in a string is with case sensitive testing is : `;
+message = `The result for single pattern present in a string with case sensitive testing is : `;
 answer = `${result1}`;
 generateTag(message, answer);
 
@@ -32,7 +32,7 @@ generateTag(message, answer);
 let string2 = "The Weather Will be rough Today";
 let regex2 = /the weather will/i;
 let result2 = regex2.test(string2);
-message = `The result for single pattern present in a string is with case insensitive testing is : `;
+message = `The result for single pattern present in a string with case insensitive testing is : `;
 answer = `${result2}`;
 generateTag(message, answer);
 
