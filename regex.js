@@ -39,8 +39,8 @@ generateTag(message, answer);
 // EXAMPLE 3 - TESTING PART OF A STRING  FOR MULTIPLE PATTERNS USING THE OR(|) OPERATOR
 
 let string3 = "The pink Elephant runs fast.";
-let regex3 = /THE|elepHANT|Fast|Runs/i;
-let result3 = regex3.test(string3);
+let regex3 = /THE|Elephant|Fast|Runs/g;
+let result3 = string3.match(regex3);
 message = `The result for multiple patterns present in a string is : `;
 answer = `${result3}`;
 generateTag(message, answer);
